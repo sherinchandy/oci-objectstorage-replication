@@ -46,12 +46,13 @@ Whenever an object is created in "source1" bucket, the same object is replicated
  #### Object Upload to Source Bucket
    ![](images/ObjectsUpload.png)
 
-
+#### Verify Same Objects in Target Bucket
    ![](images/TargetBucketCheck1.png)
 
 10. Delete objects from source bucket and verify whether the same objects are disappearing from target bucket also.
 
+#### Delete Objects from Source Bucket   
    ![](images/DeleteObject.png)
 
-
+#### Verify Deletion of Objects in Target Bucket
    ![](images/TargetBucketCheck2.png)
