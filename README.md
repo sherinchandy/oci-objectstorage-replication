@@ -4,7 +4,9 @@ Serverless Function to replicate objects between two OCI Object Storage buckets 
 
 Steps below illustrate the procedure to setup OCI Event and Function service to replicate both object upload and delete operation in a source Object Storage bucket to a target bucket. Here in this example we are configuring replication from a bucket named "source1" in Phoenix OCI region to a bucket named "target1" in Ashburn OCI region. 
 
-Whenever an object is created in "source1" bucket, the same object is replicated to "target1" bucket. When an object is deleted from "source1" bucket the same object will be deleted from "target1" bucket. However, if the requirement is replicate upload operation only(no need to delete from "target1"), we can modify either the function code(func.py) or configure Event service to invoke the Function only for Object-Create events in the "source1" bucket.
+Whenever an object is created in "source1" bucket, the same object is replicated to "target1" bucket. When an object is deleted from "source1" bucket the same object will be deleted from "target1" bucket. However, if the requirement is replicate upload operation only(no need to delete from "target1"), we can modify either the function code(func.py) or configure Event service to invoke the Function only for Object-Create events in the "source1" bucket. 
+
+Also the Function code can be modified to implement one to many replication combination, to replicate from one Object Storage bucket to several target buckets.
 
 ## Steps.
 
