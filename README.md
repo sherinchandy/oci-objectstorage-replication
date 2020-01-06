@@ -18,6 +18,7 @@ Whenever an object is created in "source1" bucket, the same object is replicated
 
    ![](images/GitClone.png)
 
+
    ![](images/DownloadecCheck.png)
 
 4. Edit the file "func.py" and update it with the target OCI region name and Object Storage bucket name. 
@@ -42,6 +43,7 @@ Whenever an object is created in "source1" bucket, the same object is replicated
 
 9. Now start uploading objects to the source Object Storage bucket and verify whether the same object is appearing in the target Object Storage bucket specified in step 4. It may take few minutes to replicate the object from source to target bucket based on the object size and whether the target bucket is in the same region as that of source bucket.
 
+ ###Object Upload to Source Bucket
    ![](images/ObjectsUpload.png)
 
 
