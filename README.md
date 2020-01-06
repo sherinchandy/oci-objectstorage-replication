@@ -14,7 +14,7 @@ Also the Function code can be modified to implement one to many replication comb
    
    
 
-## Steps.
+## Implementation Steps.
 
 1. Create an Application of your desired name(Ex: ObjectStoreRep)from OCI console by following:https://docs.cloud.oracle.com/iaas/Content/Functions/Tasks/functionscreatingapps.htm#console
 
