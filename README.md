@@ -13,6 +13,8 @@ Serverless Function to replicate objects between two OCI Object Storage buckets 
 
 ![](images/GitClone.png)
 
+![](images/DownloadecCheck.png)
+
 4. Edit the file "func.py" and update it with the target OCI region name and Object Storage bucket name. 
 
 ![](images/FuncPyEdit.png)
