@@ -43,7 +43,7 @@ Whenever an object is created in "source1" bucket, the same object is replicated
 
 9. Now start uploading objects to the source Object Storage bucket and verify whether the same object is appearing in the target Object Storage bucket specified in step 4. It may take few minutes to replicate the object from source to target bucket based on the object size and whether the target bucket is in the same region as that of source bucket.
 
- ###Object Upload to Source Bucket
+ ### Object Upload to Source Bucket
    ![](images/ObjectsUpload.png)
 
 
