@@ -10,7 +10,7 @@ Also the Function code can be modified to implement one to many replication comb
 
 ## Replication Architecrture
 
-   ![](images/Architecture.png)
+
    
    
 
