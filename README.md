@@ -8,6 +8,12 @@ Whenever an object is created in "source1" bucket, the same object is replicated
 
 Also the Function code can be modified to implement one to many replication combination, to replicate from one Object Storage bucket to several target buckets.
 
+## Replication Architecrture
+
+   ![](images/Architecture.png)
+   
+   
+
 ## Steps.
 
 1. Create an Application of your desired name(Ex: ObjectStoreRep)from OCI console by following:https://docs.cloud.oracle.com/iaas/Content/Functions/Tasks/functionscreatingapps.htm#console
